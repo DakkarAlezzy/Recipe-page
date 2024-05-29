@@ -1,0 +1,35 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    display: flex;
+    width: 738px;
+    height: 90%;
+    background-color: hsl(330, 100%, 98%);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.recipe{
+    margin: 30px;
+}
+
+.mainPicture{
+   width: 100%;
+}
+
+.list1{
+    border: 1px solid black;
+    
+}
+
