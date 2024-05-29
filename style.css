@@ -13,7 +13,7 @@ body{
 .container{
     display: flex;
     width: 738px;
-    height: 90%;
+    height: auto;
     background-color: hsl(330, 100%, 98%);
     align-items: center;
     justify-content: center;
@@ -33,3 +33,15 @@ body{
     
 }
 
+.list2{
+    border: 1px solid;
+}
+
+.nutrition{
+
+}
+
+td{
+    text-align: left;
+    width: 33%;
+}
