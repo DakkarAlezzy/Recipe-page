@@ -18,6 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    border-radius: 25px;
 }
 
 .recipe{
@@ -30,18 +31,32 @@ body{
 
 .list1{
     border: 1px solid black;
-    
 }
 
 .list2{
     border: 1px solid;
 }
 
-.nutrition{
-
+table{
+    border-collapse: collapse;
+    width: 66%;
 }
 
 td{
     text-align: left;
-    width: 33%;
+    width: 66%;
+    
 }
+
+table tr{
+    border-bottom: 1px solid black;
+}
+
+table tr:last-child {
+    border: 0;
+}
+
+table tr:first-child {
+    border: 0;
+}
+
